@@ -1,0 +1,225 @@
+/* Custom Stylesheet */
+
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+* {
+    font-family: 'roboto', 'sans';
+}
+
+a.brand-logo img {
+    margin-top: 9px;
+    margin-left: 60px;
+    height: 45px;
+    width: auto;
+}
+
+.card-image {
+    min-height: 130px;
+    max-height: 130px;
+    height: 130px;
+    overflow: hidden;
+}
+
+.card-image .badge {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.card .card-content {
+    padding: 16px;
+    min-height: 92px;
+    max-height: 92px;
+    height: 92px;
+    overflow: hidden;
+}
+
+.card .card-action {
+    padding: 12px;
+}
+
+.card .card-action .badge {
+    padding: 0 5px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 990px) {
+    a.brand-logo img {
+        margin-left: 50px;
+        height: 35px;
+        width: auto;
+        margin-top: 11px;
+    }
+    .mt-20-small {
+        margin: 20px auto;
+    }
+    .card-image {
+        min-height: 163px;
+        max-height: 163px;
+        height: 163px;
+        overflow: hidden;
+    }
+}
+
+.icon-block {
+    padding: 0 15px;
+}
+
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+h5 {
+    font-size: 1.5rem;
+}
+
+.margin-hori-5 {
+    margin: 8px 15px !important;
+}
+
+.no-margin {
+    margin: 0 !important;
+}
+
+.margin-vertical-15 {
+    margin: 15px 0 !important;
+}
+
+.margin-top-15 {
+    margin: 15px 0 0 0 0 !important;
+}
+
+.mr-5 {
+    margin-right: 5px !important;
+}
+
+.mt-5 {
+    margin-top: 5px !important;
+}
+
+.pt-20 {
+    padding-top: 20px !important;
+}
+
+.pb-20 {
+    padding-bottom: 20px !important;
+}
+
+.pt-5 {
+    padding-top: 5px !important;
+}
+
+.border-top {
+    border-top: 1px solid #e5e5e5 !important;
+}
+.border-left {
+    border-left: 1px solid #e5e5e5 !important;
+}
+
+.border-right {
+    border-right: 1px solid #e5e5e5 !important;
+}
+.owl-carousel {
+    position: relative;
+}
+
+.owl-prev,
+.owl-next {
+    position: absolute;
+    top: 43%;
+    margin-top: -10px;
+}
+
+.owl-prev {
+    left: -45px;
+}
+
+.owl-next {
+    right: -45px;
+}
+
+nav ul a.btn-flat {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+nav ul a {
+    padding: 0 8px;
+}
+
+.btn-trans {
+    opacity: 0.7;
+}
+
+a.small {
+    font-size: 80%;
+}
+
+.small {
+    font-size: 80%;
+}
+
+hr.hr-style {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(173, 173, 173, 0), rgba(173, 173, 173, 0.75), rgba(173, 173, 173, 0));
+}
+
+input.custom-input[type='text'] {
+    height: 2.5rem;
+    background-image: url(../imgs/search-small.png);
+    background-position: right 7px;
+    background-repeat: no-repeat;
+    padding: 5px 40px 5px 12px;
+    margin: 9px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input.custom-input[type='text']:active {
+    border-bottom: 1px solid #666;
+    -webkit-box-shadow: 0 1px 0 0 #666;
+    box-shadow: 0 1px 0 0 #666;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]) {
+    border-bottom: 1px solid #f00;
+    -webkit-box-shadow: 0 1px 0 0 #f00;
+    box-shadow: 0 1px 0 0 #f00;
+}
+
+.upload-page .card .card-content {
+    padding: 16px;
+    min-height: auto;
+    max-height: 1000px;
+    height: auto;
+}
+
+.mt-20-small {
+    align-self: center;
+}
+
+#modalLoading {
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+#modalLoading:focus {
+    outline: none;
+}
+
+.tabcontent {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #eee;
+    min-height: 300px;
+    height: 300px;
+    margin: 0 50px;
+}
